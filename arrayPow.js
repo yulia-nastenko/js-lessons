@@ -1,6 +1,6 @@
 function arrayPow(array, power) {
   var result = [];
-  for (i = 0; i < array.length; i++) {
+  for (var i = 0; i < array.length; i++) {
     result.push(Math.pow(array[i], power));
   }
   return result;
