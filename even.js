@@ -1,7 +1,7 @@
 function even(array) {
   var result = [];
 
-  for (var i = 0; i <= array.length-1; i++) {
+  for (var i = 0; i <= array.length - 1; i++) {
     if (array[i] % 2 == 0) {
       result.push(array[i]);
     }
